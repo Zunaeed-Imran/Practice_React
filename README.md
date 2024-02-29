@@ -1,2 +1,2 @@
 # Practice_React
-I will practice dummy react project in this repository.
+- I will practice dummy react project in this repository.
