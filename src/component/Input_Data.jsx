@@ -1,53 +1,53 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
+
+
 
 const Input_Data = () => {
-  const [tasks, setTasks] = useState(['Eat', 'work', 'sleep']);
-  const [newTask, setNewTask] = useState('');
 
-  function handleInputChange(event) {
-    setNewTask(event.target.value);
+  const [todo, setTodo] = useState(['try']);
+  const [newTodo, setNewTodo] = useState('');
+
+
+  function Changeinput(event) {
+    setNewTodo(event.target.value);
   }
 
   function addTask() {
-    if (newTask.trim() !== '') {
-      setTasks([...tasks, newTask]);
-      setNewTask('');
-    }
+    setTodo([...todo, newTodo]);
+    setNewTodo('');
   }
 
-  function deleteTask(index) {
-    const updatedTasks = tasks.filter((_, i) => i !== index);
-    setTasks(updatedTasks);
+  function deleteData(index) {
+    const DeleteInput = todo.filter((_, k) => k !== index);
+    setTodo(DeleteInput);
   }
 
   return (
     <div>
+      
+
       <form>
         <div>
-          <input
-            type="text"
-            placeholder="Enter Title"
-            value={newTask}
-            onChange={handleInputChange}
-          />
+          <input type="text"
+            value={newTodo}
+            onClick={Changeinput} />
         </div>
         <div>
-          <button type="button" onClick={addTask}>
-            Add Data
-          </button>
+          <button type='button' onClick={addTask}>Add</button>
         </div>
+
+        <ol>
+          {todo.map((todo, index) => (
+            <li key={index}>
+              <span>{todo}</span>
+              <button onClick={() => deleteData(index)}>Del</button>
+            </li>
+          ))}
+        </ol>
       </form>
 
-      <ol>
-        {tasks.map((task, index) => (
-          <li key={index}>
-            <span>{task}</span>
-            <button onClick={() => deleteTask(index)}>Delete</button>
-          </li>
-        ))}
-      </ol>
     </div>
   );
 };
 
-export default Input_Data;
+export default Input_Data
