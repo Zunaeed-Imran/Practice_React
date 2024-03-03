@@ -13,12 +13,14 @@ const Input_Data = () => {
   }
 
   function addTask() {
-    setTodo([...todo, newTodo]);
-    setNewTodo('');
+    if (newTodo.trim() !== '') { 
+      setTodo([...todo, newTodo]);
+      setNewTodo('');
+    }
   }
 
   function deleteData(index) {
-    const DeleteInput = todo.filter((_, k) => k !== index);
+    const DeleteInput = todo.filter((_, i) => i !== index);
     setTodo(DeleteInput);
   }
 
