@@ -30,7 +30,7 @@ const Input_Data = () => {
         <div>
           <input type="text"
             value={newTodo}
-            onClick={Changeinput} />
+            onChange={Changeinput} />
         </div>
         <div>
           <button type='button' onClick={addTask}>Add</button>
