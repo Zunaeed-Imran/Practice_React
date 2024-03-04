@@ -1,17 +1,20 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import './App.css';
-import State from './state_setState_eventHandler';
+import Prop from './Prop_practice/Prop';
+// import State from './state_setState_eventHandler';
 // import Todo_App from './component';
 
 
 function App() {
-  const [count, setCount] = useState(0);
+  // const [count, setCount] = useState(0);
 
   return (
     <>
       {/* <Todo_App/> */}
-      
-      <State/>
+
+      {/* <State/> */}
+
+      <Prop test="0" />
     </>
   );
 }
