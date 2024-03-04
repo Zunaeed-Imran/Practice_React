@@ -11,4 +11,6 @@ Currently, two official plugins are available:
 - practicing value pass using prop.
 - practicing state value pass in a class component.
 - Practicing value pass using State and changeing value.
+- practicing mapping.
+- having a error in nested mapping try to fix it.
 - 
