@@ -20,7 +20,9 @@ function App() {
 
       {/* <Prop test="100" /> */}
 
-      <Mapping/>
+      <Mapping />
+      
+      
     </>
   );
 }
