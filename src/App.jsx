@@ -1,7 +1,7 @@
 // import { useState } from 'react';
 import './App.css';
-import Prop from './Prop_practice/Prop';
-// import State from './state_setState_eventHandler';
+// import Prop from './Prop_practice/Prop';
+import State from './state_setState_eventHandler';
 // import Todo_App from './component';
 
 
@@ -12,9 +12,9 @@ function App() {
     <>
       {/* <Todo_App/> */}
 
-      {/* <State/> */}
+      <State/>
 
-      <Prop test="100" />
+      {/* <Prop test="100" /> */}
     </>
   );
 }
