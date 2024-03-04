@@ -1,10 +1,14 @@
 import React, { Component } from 'react'
 
 export default class Prop extends Component {
+
   render() {
+
+    const { test } = this.props;
+
     return (
       <div>
-        {this.props.test}
+        {test}
       </div>
     )
   }

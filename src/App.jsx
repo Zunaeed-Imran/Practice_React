@@ -14,7 +14,7 @@ function App() {
 
       {/* <State/> */}
 
-      <Prop test="0" />
+      <Prop test="100" />
     </>
   );
 }
