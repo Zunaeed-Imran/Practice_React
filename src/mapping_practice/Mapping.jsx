@@ -9,10 +9,10 @@ const user = [
   {
     age: 26,
     phone: [
-      {
-        home: '01599887745',
-        office: '884521'
-      }
+      
+        {home: '01599887745'},
+        {office: '884521'}
+      
     ]
   }
 ]
@@ -28,12 +28,12 @@ const Mapping = () => {
           <h2>{user.lastName}</h2>
           <h2>{user.age}</h2>
           {
-            user.phone.map((phone, index) => {
+            user.phone.map((mobile, index) => 
               <div key={index}>
-                <h3>{phone.home}</h3>
-                <h3>{phone.office}</h3>
+                <h3>{mobile.home}</h3>
+                <h3>{mobile.office}</h3>
               </div>
-            })
+            )
           }
         </div>
       ))}
