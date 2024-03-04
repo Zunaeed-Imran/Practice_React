@@ -19,8 +19,7 @@ const Mapping = () => {
           <h2>{user.firstName}</h2>
           <h2>{user.lastName}</h2>
           <h2>{user.age}</h2>
-          {user.phone &&
-            user.phone.map((mobile, index) => (
+          {user.phone && user.phone.map((mobile, index) => (
               <div key={index}>
                 <h2>{mobile.home}</h2>
                 <h2>{mobile.office}</h2>
