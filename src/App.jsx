@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.css';
-import Todo_App from './component';
+import State from './state_setState_eventHandler';
+// import Todo_App from './component';
 
 
 function App() {
@@ -8,7 +9,9 @@ function App() {
 
   return (
     <>
-      <Todo_App/>
+      {/* <Todo_App/> */}
+      
+      <State/>
     </>
   );
 }
