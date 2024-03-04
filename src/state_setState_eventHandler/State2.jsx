@@ -1,30 +1,31 @@
 import React, { Component } from 'react'
 
-class State2 extends Component {
+export default class State2 extends Component {
 
 
+constructor(props) {
+  super(props)
 
-  constructor(props) {
-    super(props)
-  
-    this.state = {
-       count : 100
-    }
+  this.state = {
+    test: 100,
+    massege: 'this is your mark'
   }
+}
 
 
 
   render() {
 
-    // Destructuring
-    const {count} = this.state
+    // destructuring
+    const {test} = this.state;
+    const { massege } = this.state;
+
 
     return (
       <div>
-        <h2> {count} </h2>
+        <h2>{test}</h2>
+        <h3>{massege}</h3>
       </div>
     )
   }
 }
-
-export default State2;
