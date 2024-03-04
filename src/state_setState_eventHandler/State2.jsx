@@ -8,16 +8,20 @@ class State2 extends Component {
     super(props)
   
     this.state = {
-       first
+       count : 100
     }
   }
 
 
 
   render() {
+
+    // Destructuring
+    const {count} = this.state
+
     return (
       <div>
-        {this.props.count}
+        <h2> {count} </h2>
       </div>
     )
   }

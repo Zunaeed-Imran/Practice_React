@@ -6,7 +6,7 @@ const State = () => {
     <div>
       
 
-      <State2 count="0"/>
+      <State2 />
     </div>
   )
 }
