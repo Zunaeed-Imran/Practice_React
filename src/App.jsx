@@ -1,6 +1,7 @@
 // import { useState } from 'react';
 import './App.css';
-import UseStateHook2 from './useState_hook/UseStateHook2';
+import Usestatehook3 from './useState_hook/Usestatehook3';
+// import UseStateHook2 from './useState_hook/UseStateHook2';
 // import Usestate_hook from './useState_hook/Usestate_hook';
 // import Mapping from './mapping_practice/Mapping';
 // import State3 from './state_setState_eventHandler/State3';
@@ -26,7 +27,9 @@ function App() {
       
       {/* <Usestate_hook/> */}
 
-      <UseStateHook2/>
+      {/* <UseStateHook2/> */}
+      
+      <Usestatehook3/>
     </>
   );
 }
