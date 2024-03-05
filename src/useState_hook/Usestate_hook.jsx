@@ -1,3 +1,6 @@
+// Practice usestate hook.
+// we use functional component 
+// we don't need to constructor function like we use in calss component.
 
 import React, { useState } from 'react'
 
