@@ -1,6 +1,7 @@
 // import { useState } from 'react';
 import './App.css';
-import Mapping from './mapping_practice/Mapping';
+import Usestate_hook from './useState_hook/Usestate_hook';
+// import Mapping from './mapping_practice/Mapping';
 // import State3 from './state_setState_eventHandler/State3';
 // import Prop from './Prop_practice/Prop';
 // import State from './state_setState_eventHandler';
@@ -20,9 +21,9 @@ function App() {
 
       {/* <Prop test="100" /> */}
 
-      <Mapping />
+      {/* <Mapping /> */}
       
-      
+      <Usestate_hook/>
     </>
   );
 }
