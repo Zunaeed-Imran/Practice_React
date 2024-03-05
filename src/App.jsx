@@ -1,6 +1,9 @@
 // import { useState } from 'react';
 import './App.css';
-import Usestatehook3 from './useState_hook/Usestatehook3';
+// import Event_handler from './Event_handler_onchange_onclick/Event_handler';
+import Event_handler from './Event_handler_onchange_onclick/eventHandler2';
+// import Event_handler from './Event_handler_onchange_onclick/Event_handler';
+// import Usestatehook3 from './useState_hook/Usestatehook3';
 // import UseStateHook2 from './useState_hook/UseStateHook2';
 // import Usestate_hook from './useState_hook/Usestate_hook';
 // import Mapping from './mapping_practice/Mapping';
@@ -24,12 +27,16 @@ function App() {
       {/* <Prop test="100" /> */}
 
       {/* <Mapping /> */}
-      
+
       {/* <Usestate_hook/> */}
 
       {/* <UseStateHook2/> */}
-      
-      <Usestatehook3/>
+
+      {/* <Usestatehook3/> */}
+
+      {/* <Event_handler/> */}
+
+      <event_handler2/>
     </>
   );
 }
