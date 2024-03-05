@@ -2,12 +2,12 @@ import React from 'react';
 
 const users = [
   {
-    firstName: 'MD_Zunaeed',
-    lastName: 'Imran',
+    firstName: 'First Name: MD_Zunaeed',
+    lastName: 'Nick Name: Imran',
   },
   {
-    age: 26,
-    phone: [{ home: '01599887745' }, { office: '884521' }],
+    age: 'Age: 26',
+    phone: [{ home: 'Home: 01599887745' }, { office: 'Office: 884521' }],
   },
 ];
 
