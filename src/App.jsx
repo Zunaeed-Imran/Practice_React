@@ -1,8 +1,9 @@
 // import { useState } from 'react';
 import './App.css';
-import EventHandler2 from './Event_handler_onchange_onclick/eventHandler2';
+import EventHandle_onchange3 from './Event_handler_onchange_onclick/EventHandle_onchange3';
+// import EventHandler2 from './Event_handler_onchange_onclick/eventHandler2';
 // import Event_handler from './Event_handler_onchange_onclick/Event_handler';
-import Event_handler from './Event_handler_onchange_onclick/eventHandler2';
+// import Event_handler from './Event_handler_onchange_onclick/eventHandler2';
 // import Event_handler from './Event_handler_onchange_onclick/Event_handler';
 // import Usestatehook3 from './useState_hook/Usestatehook3';
 // import UseStateHook2 from './useState_hook/UseStateHook2';
@@ -37,7 +38,9 @@ function App() {
 
       {/* <Event_handler/> */}
 
-      <EventHandler2/>
+      {/* <EventHandler2/> */}
+
+      <EventHandle_onchange3/>
     </>
   );
 }
