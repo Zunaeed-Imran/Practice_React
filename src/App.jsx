@@ -1,5 +1,6 @@
 // import { useState } from 'react';
 import './App.css';
+import EventHandler2 from './Event_handler_onchange_onclick/eventHandler2';
 // import Event_handler from './Event_handler_onchange_onclick/Event_handler';
 import Event_handler from './Event_handler_onchange_onclick/eventHandler2';
 // import Event_handler from './Event_handler_onchange_onclick/Event_handler';
@@ -36,7 +37,7 @@ function App() {
 
       {/* <Event_handler/> */}
 
-      <event_handler2/>
+      <EventHandler2/>
     </>
   );
 }

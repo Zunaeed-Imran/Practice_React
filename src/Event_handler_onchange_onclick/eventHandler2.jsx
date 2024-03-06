@@ -1,14 +1,35 @@
 import React, { Component } from 'react'
 
-class eventHandler2 extends Component {
+
+
+
+
+class EventHandler2 extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      ChangeValue : ''
+    };
+  }
+
+  chAnging = (e) => {
+    this.setState({
+      ChangeValue: e.target.value
+    })
+  }
+
   render() {
     return (
       <div>
-        hi
+        <h1>
+          {this.state.ChangeValue}
+        </h1>
+          <input type="text" onChange={this.chAnging} />
       </div>
-    )
+    );
   }
 }
 
 
-export default eventHandler2;
+export default EventHandler2;
