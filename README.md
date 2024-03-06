@@ -5,4 +5,5 @@
 
 ### Done task for today
 - Practicing Controlled component Collect form data.
+- Practicing useSatate with Object.
 - 
