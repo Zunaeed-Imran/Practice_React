@@ -1,6 +1,7 @@
 // import { useState } from 'react';
 import './App.css';
-import Passing_data_child_to_parent from './Passing_data_child_to_parent/Passing_data_child_to_parent';
+import Child_to_parent from './Passing_data_child_to_parent/Child_to_parent';
+// import Passing_data_child_to_parent from './Passing_data_child_to_parent/Passing_data_child_to_parent';
 // import Practice3 from './UseState_with_Object/Practice3';
 // import Practice2 from './UseState_with_Object/Practice2';
 // import Practice1 from './UseState_with_Object/Practice1';
@@ -58,7 +59,9 @@ function App() {
 
       {/* <Practice3/> */}
 
-      <Passing_data_child_to_parent/>
+      {/* <Passing_data_child_to_parent/> */}
+
+      <Child_to_parent/>
     </>
   );
 }
