@@ -1,6 +1,7 @@
 // import { useState } from 'react';
 import './App.css';
-import Practice1 from './UseState_with_Object/Practice1';
+import Practice2 from './UseState_with_Object/Practice2';
+// import Practice1 from './UseState_with_Object/Practice1';
 // import Form_data_show from './Controlled_component_Collect_form_data./Form_data_show';
 // import Practice1 from './Controlled_component_Collect_form_data./Practice1';
 // import EventHandle_onchange3 from './Event_handler_onchange_onclick/EventHandle_onchange3';
@@ -49,7 +50,9 @@ function App() {
 
       {/* <Form_data_show/> */}
 
-      <Practice1/>
+      {/* <Practice1/> */}
+
+      <Practice2/>
     </>
   );
 }

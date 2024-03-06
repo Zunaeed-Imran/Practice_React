@@ -1,25 +1,25 @@
 import React, { useState } from 'react'
 
-const Practice1 = () => {
+const Practice2 = () => {
 
-
-  const [user, setUser] = useState({name:'', email:'', password:''});
-
-  // Destructuring 
+  const [user, setUser] = useState({ name: '', email: '', password: '' });
+  
+  // Destructuring
   const { name, email, password } = user;
 
   const handleChange = (e) => {
-    setUser({ ...user, [e.target.name]: e.target.value });
+    setUser({...user, [e.target.name]: e.target.value});
   }
 
-  const handleSubmit = (e) => {
+  const submitChange = (e) => {
     console.log(user);
     e.preventDefault();
   }
 
+
   return (
     <div>
-      <form onSubmit={handleSubmit}>
+      <form onClick={submitChange}>
         <div>
           <input type="text" name="name" onChange={handleChange} placeholder='Name'/>
         </div>
@@ -37,4 +37,4 @@ const Practice1 = () => {
   )
 }
 
-export default Practice1;
+export default Practice2
