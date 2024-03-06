@@ -1,6 +1,7 @@
 // import { useState } from 'react';
 import './App.css';
-import Practice3 from './UseState_with_Object/Practice3';
+import Passing_data_child_to_parent from './Passing_data_child_to_parent/Passing_data_child_to_parent';
+// import Practice3 from './UseState_with_Object/Practice3';
 // import Practice2 from './UseState_with_Object/Practice2';
 // import Practice1 from './UseState_with_Object/Practice1';
 // import Form_data_show from './Controlled_component_Collect_form_data./Form_data_show';
@@ -55,7 +56,9 @@ function App() {
 
       {/* <Practice2/> */}
 
-      <Practice3/>
+      {/* <Practice3/> */}
+
+      <Passing_data_child_to_parent/>
     </>
   );
 }
