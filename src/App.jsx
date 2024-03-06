@@ -1,6 +1,7 @@
 // import { useState } from 'react';
 import './App.css';
-import Parent4 from './Passing_data_child_to_parent/Parent4';
+// import Parent5 from './Passing_data_child_to_parent/Parent5';
+// import Parent4 from './Passing_data_child_to_parent/Parent4';
 // import Parent3 from './Passing_data_child_to_parent/Practice3';
 // import Child_to_parent from './Passing_data_child_to_parent/Child_to_parent';
 // import Passing_data_child_to_parent from './Passing_data_child_to_parent/Passing_data_child_to_parent';
@@ -67,7 +68,9 @@ function App() {
 
       {/* <Parent3/> */}
 
-      <Parent4/>
+      {/* <Parent4/> */}
+
+      {/* <Parent5/> */}
     </>
   );
 }
