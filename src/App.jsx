@@ -1,6 +1,8 @@
 // import { useState } from 'react';
 import './App.css';
-import EventHandle_onchange3 from './Event_handler_onchange_onclick/EventHandle_onchange3';
+import Form_data_show from './Controlled_component_Collect_form_data./Form_data_show';
+// import Practice1 from './Controlled_component_Collect_form_data./Practice1';
+// import EventHandle_onchange3 from './Event_handler_onchange_onclick/EventHandle_onchange3';
 // import EventHandler2 from './Event_handler_onchange_onclick/eventHandler2';
 // import Event_handler from './Event_handler_onchange_onclick/Event_handler';
 // import Event_handler from './Event_handler_onchange_onclick/eventHandler2';
@@ -40,7 +42,11 @@ function App() {
 
       {/* <EventHandler2/> */}
 
-      <EventHandle_onchange3/>
+      {/* <EventHandle_onchange3/> */}
+
+      {/* <Practice1/> */}
+
+      <Form_data_show/>
     </>
   );
 }

@@ -4,6 +4,5 @@
 - but when we use `useState()` we only have to use functional component.
 
 ### Done task for today
-- practicing useState() hook.
-- practicing Event Handler.
+- Practicing Controlled component Collect form data.
 - 
