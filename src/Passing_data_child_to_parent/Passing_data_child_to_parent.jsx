@@ -1,3 +1,5 @@
+// in this practice file we practice  parent to child data pass.
+
 import React from 'react'
 
 import Child from './Child'

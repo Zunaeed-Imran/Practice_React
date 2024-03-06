@@ -1,3 +1,5 @@
+// in this two practice file we practice parent to child data pass.
+
 import React from 'react'
 
 const Child = (props) => {
