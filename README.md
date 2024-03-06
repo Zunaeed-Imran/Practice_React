@@ -7,4 +7,5 @@
 - Practicing Controlled component Collect form data.
 - Practicing useSatate with Object.
 - Practicing passing data from child to parent component.
+- Practicing child to parent data pass using state lifting.
 - 

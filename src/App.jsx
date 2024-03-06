@@ -1,5 +1,6 @@
 // import { useState } from 'react';
 import './App.css';
+import State_lifting from './More_on_state_lifting/State_lifting';
 // import Parent5 from './Passing_data_child_to_parent/Parent5';
 // import Parent4 from './Passing_data_child_to_parent/Parent4';
 // import Parent3 from './Passing_data_child_to_parent/Practice3';
@@ -71,6 +72,8 @@ function App() {
       {/* <Parent4/> */}
 
       {/* <Parent5/> */}
+
+      <State_lifting/>
     </>
   );
 }
