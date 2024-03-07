@@ -1,0 +1,2 @@
+- [tutorial of the todo app](https://youtu.be/qQk4bwj5_ts?si=kUO29ntYqVQQQNJp)
+- 42:38 is the main concept(multiple child component concept)

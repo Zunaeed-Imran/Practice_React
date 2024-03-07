@@ -6,4 +6,5 @@
 ### Today Done task.
 
 - Practicing state lifting principle.
--  
+- Practicing a complete Todo App.
+- 
