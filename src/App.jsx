@@ -1,6 +1,7 @@
 // import { useState } from 'react';
 import './App.css';
-import Practice2Home from './State_lifting_principle/Practice2Home';
+import Practice3_Home from './State_lifting_principle/Practice3_Home';
+// import Practice2Home from './State_lifting_principle/Practice2Home';
 // import Home from './State_lifting_principle/Home';
 // import State_lifting from './More_on_state_lifting/State_lifting';
 // import Parent5 from './Passing_data_child_to_parent/Parent5';
@@ -79,7 +80,9 @@ function App() {
 
       {/* <Home/> */}
 
-      <Practice2Home/>
+      {/* <Practice2Home/> */}
+
+      <Practice3_Home/>
     </>
   );
 }
