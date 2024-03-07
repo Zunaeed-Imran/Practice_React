@@ -21,12 +21,12 @@ const New_todos = (props) => {
 
   return (
     <div>
-      <form>
+      <form onClick={handleSubmit}>
         <div>
           <input type="text" name="name" placeholder='Name' value={todo} onChange={handleName}/>
         </div>
         <div>
-          <button type='submit' onClick={handleSubmit}>Add Todo</button>
+          <button type='submit'>Add Todo</button>
         </div>
       </form>
     </div>
