@@ -1,6 +1,7 @@
 // import { useState } from 'react';
 import './App.css';
-import Practice_toggle2 from './Toggle_practice/Practice_toggle2';
+import FAQ_Practice from './FAQ_practice/FAQ_Practice';
+// import Practice_toggle2 from './Toggle_practice/Practice_toggle2';
 // import Toggle_Practice from './Toggle_practice/Toggle_Practice';
 // import Todo_App from './Todo_app/Todo_App';
 // import Practice3_Home from './State_lifting_principle/Practice3_Home';
@@ -91,7 +92,9 @@ function App() {
 
       {/* <Toggle_Practice/> */}
 
-      <Practice_toggle2/>
+      {/* <Practice_toggle2/> */}
+
+      <FAQ_Practice/>
     </>
   );
 }
