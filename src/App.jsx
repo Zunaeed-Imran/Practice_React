@@ -1,6 +1,7 @@
 // import { useState } from 'react';
 import './App.css';
-import Faq3_practice from './FAQ_practice/Faq3_practice';
+import Useeffect_practice1 from './useEffect_fetch_practice/Useeffect_practice1';
+// import Faq3_practice from './FAQ_practice/Faq3_practice';
 // import Faq2_Practice from './FAQ_practice/Faq2_Practice';
 // import FAQ_Practice from './FAQ_practice/FAQ_Practice';
 // import Practice_toggle2 from './Toggle_practice/Practice_toggle2';
@@ -100,7 +101,9 @@ function App() {
 
       {/* <Faq2_Practice/> */}
 
-      <Faq3_practice/>
+      {/* <Faq3_practice/> */}
+
+      <Useeffect_practice1/>
     </>
   );
 }
