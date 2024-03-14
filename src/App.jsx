@@ -1,6 +1,7 @@
 // import { useState } from 'react';
 import './App.css';
-import UseEffect_Error_fetch from './UseEffect_Error_fetch/UseEffect_Error_fetch';
+import UseEffectErrorPrac2 from './UseEffect_Error_fetch/UseEffectErrorPrac2';
+// import UseEffect_Error_fetch from './UseEffect_Error_fetch/UseEffect_Error_fetch';
 // import UseEffect3_practice from './useEffect_fetch_practice/UseEffect3_practice';
 // import UseEffect2 from './useEffect_fetch_practice/UseEffect2';
 // import Useeffect_practice1 from './useEffect_fetch_practice/Useeffect_practice1';
@@ -112,7 +113,9 @@ function App() {
 
       {/* <UseEffect3_practice/> */}
 
-      <UseEffect_Error_fetch/>
+      {/* <UseEffect_Error_fetch/> */}
+
+      <UseEffectErrorPrac2/>
     </>
   );
 }
