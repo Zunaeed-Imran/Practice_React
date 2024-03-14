@@ -1,58 +1,49 @@
-import React, { useEffect, useState } from 'react';
-
-
-  // loading massege for loading in the display
-  const loadingMessage = <p>Data is loading from API....</p>
-
+import React from 'react'
+import { useEffect } from 'react';
+import { useState } from 'react';
 
 const UseEffect_Error_fetch = () => {
 
+  // this is for todo data.
+  const [todo, setTodo] = useState();
 
-  const [todo1, setTodo1] = useState(null);
-  const [mas, setMas] = useState(true);
-  const [error, setError] = useState(false);
+  // this is for loading massege.
+  const [isloading, setisLoading] = useState(true);
+
 
   useEffect(() => {
     setTimeout(() => {
-      fetch('https://jsonplaceholder.typicode.com/todos')
-        .then(res1 => {
-          if (!res1.ok) {
-            throw Error("Not Fetch")
-          } else {
-            return res1.json();
-          }
-          
-            .then(todo1 => {
-              setTodo1(todo1);
-              setMas(false)
-              setError(null);
+          fetch('https://jsonplaceholder.typicode.com/todos')
+            .then(res => {
+              return res.json().then();
             })
-            .catch((error) => {
-              setError(error.message);
-              setMas(false);
+            .then(data => {
+              setTodo(data);
+              setisLoading(false);
             });
-      });
     }, 1000)
-  }, []);
+  }, [])
 
 
-  // display the todo massege taking in a variable.
-  const todoDisplay =
-    todo1 &&
-    todo1.map(todo1 => {
-      return <p key={todo1.id}>{todo1.title}</p>;
+
+
+// make a component to make it simplified.
+  const todoDiaplay =
+    todo &&
+    todo.map(todos => {
+      return <p key={todos.id}>{todos.title}</p>;
     });
 
-  
+  // loading massege variable.
+  const loadingMassege = <p>Data is loading...</p>
 
   return (
-    <div>
+    <>
       <h1>Todo</h1>
-      {mas && loadingMessage}
-      {error && {error}}
-      {todoDisplay}
-    </div>
-  );
-};
+      {isloading && loadingMassege}
+      {todoDiaplay}
+    </>
+  )
+}
 
 export default UseEffect_Error_fetch;
