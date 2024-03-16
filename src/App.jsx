@@ -1,6 +1,7 @@
 // import { useState } from 'react';
 import './App.css';
-import Custom_hook1 from './Custom_Hook/Custom_hook1';
+import Custom_Hook2 from './Custom_Hook/Custom_Hook2';
+// import Custom_hook1 from './Custom_Hook/Custom_hook1';
 // import UseEffectErrorPrac2 from './UseEffect_Error_fetch/UseEffectErrorPrac2';
 // import UseEffect_Error_fetch from './UseEffect_Error_fetch/UseEffect_Error_fetch';
 // import UseEffect3_practice from './useEffect_fetch_practice/UseEffect3_practice';
@@ -118,7 +119,9 @@ function App() {
 
       {/* <UseEffectErrorPrac2/> */}
 
-      <Custom_hook1/>
+      {/* <Custom_hook1/> */}
+
+      <Custom_Hook2/>
     </>
   );
 }

@@ -13,7 +13,6 @@ const Custom_hook1 = () => {
 
   const loadingMessage1 = <p>Loading from API</p>;
   const errorMessage1 = <p>Error the Fetch Check Please</p>;
-
   const displayMassege1 = data1 && data1.map((data1) => {
     return <p key={data1.id}>{data1.title}</p>
   });
