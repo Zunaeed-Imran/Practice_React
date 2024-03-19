@@ -1,6 +1,7 @@
 // import { useState } from 'react';
 import './App.css';
-import COuntry_App from './Country_App/COuntry_App';
+import CountryApp2 from './Country_App/CountryApp2';
+// import COuntry_App from './Country_App/COuntry_App';
 // import Custom_Hook2 from './Custom_Hook/Custom_Hook2';
 // import Custom_hook1 from './Custom_Hook/Custom_hook1';
 // import UseEffectErrorPrac2 from './UseEffect_Error_fetch/UseEffectErrorPrac2';
@@ -124,7 +125,9 @@ function App() {
 
       {/* <Custom_Hook2/> */}
 
-      <COuntry_App/>
+      {/* <COuntry_App/> */}
+
+      <CountryApp2/>
     </>
   );
 }
