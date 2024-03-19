@@ -3,6 +3,7 @@ import './App.css';
 import CountryApp2 from './Country_App/CountryApp2';
 import Dynamic_Style_1 from './Dynamic_Style/Dynamic_Style_1';
 import Dynamic_style2 from './Dynamic_Style/Dynamic_style2';
+import Style3_dynamic from './Dynamic_Style/Style3_dynamic';
 // import COuntry_App from './Country_App/COuntry_App';
 // import Custom_Hook2 from './Custom_Hook/Custom_Hook2';
 // import Custom_hook1 from './Custom_Hook/Custom_hook1';
@@ -133,7 +134,9 @@ function App() {
 
       {/* <Dynamic_Style_1/> */}
 
-      <Dynamic_style2/>
+      {/* <Dynamic_style2/> */}
+
+      <Style3_dynamic/>
     </>
   );
 }
