@@ -1,5 +1,0 @@
-- with prop we can't changed value from another component folder
-  but  using state we can changed value.
-
-- we need constructor function when we are gonna use State.
-- 
