@@ -2,7 +2,7 @@
 import './App.css';
 import Usereducer from './Hooks/Use_reducer_Hook/Usereducer';
 // import Component1 from './Hooks/UseContext_Hook/Component1';
-// import CountryApp2 from './Country_App/CountryApp2';
+import COuntry_App from './Country_App/COuntry_App';
 // import Dynamic_Style_1 from './Dynamic_Style/Dynamic_Style_1';
 // import Dynamic_style2 from './Dynamic_Style/Dynamic_style2';
 // import Style3_dynamic from './Dynamic_Style/Style3_dynamic';
@@ -130,9 +130,7 @@ function App() {
 
       {/* <Custom_Hook2/> */}
 
-      {/* <COuntry_App/> */}
-
-      {/* <CountryApp2/> */}
+      <COuntry_App/>
 
       {/* <Dynamic_Style_1/> */}
 
@@ -142,7 +140,7 @@ function App() {
 
       {/* <Component1/> */}
 
-      <Usereducer/>
+      {/* <Usereducer/> */}
     </>
   );
 }
