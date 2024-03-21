@@ -1,6 +1,7 @@
 // import { useState } from 'react';
 import './App.css';
-import Component1 from './Hooks/UseContext_Hook/Component1';
+import Usereducer from './Hooks/Use_reducer_Hook/Usereducer';
+// import Component1 from './Hooks/UseContext_Hook/Component1';
 // import CountryApp2 from './Country_App/CountryApp2';
 // import Dynamic_Style_1 from './Dynamic_Style/Dynamic_Style_1';
 // import Dynamic_style2 from './Dynamic_Style/Dynamic_style2';
@@ -139,7 +140,9 @@ function App() {
 
       {/* <Style3_dynamic/> */}
 
-      <Component1/>
+      {/* <Component1/> */}
+
+      <Usereducer/>
     </>
   );
 }
