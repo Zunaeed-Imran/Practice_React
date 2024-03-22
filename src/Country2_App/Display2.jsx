@@ -14,8 +14,12 @@ const Display2 = (props) => {
         {props.country.map(country => {
           const newCountry = { country, id: uuidv4() };
           return (
-            <Country_Prop2/>
-          )
+            <Country_Prop2
+              {...newCountry}
+              key={newCountry.id}
+              onRemove={props.onRemove}
+            />
+          );
         })}
 
 
@@ -24,4 +28,4 @@ const Display2 = (props) => {
   )
 }
 
-export default Display2
+export default Display2;

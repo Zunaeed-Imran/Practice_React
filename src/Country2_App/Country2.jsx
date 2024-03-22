@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Display2 from './Display2';
+import Search2 from './Search2';
 
 
 
@@ -36,7 +37,7 @@ const Country2 = () => {
   }, []);
 
   const handleRemove = (name) => {
-    const filterRemoveData = filter.filter(countrys => country.name.common !== name);
+    const filterRemoveData = filter.filter(country => country.name.common !== name);
     setFilter(filterRemoveData);
   };
 
@@ -44,7 +45,7 @@ const Country2 = () => {
     let val = searchVal.toLowerCase();
     const newCountry = country.filter(countryserch => {
       const countryresult = countryserch.name.common.toLowerCase();
-      return countryresult.startsWith(searchVal);
+      return countryresult.startsWith(val);
     });
     setFilter(newCountry);
   }
@@ -53,7 +54,12 @@ const Country2 = () => {
   return (
     <>
       <h1>Country App</h1>
-      <Display2 />
+      <Search2 onSearch={handleSearch} />
+      {loading && <h2>Loading...</h2>}
+      {error && <h2>{error.message}</h2>}
+      {country && (
+        <Display2 country={filter} onRemove={handleRemove} />
+      )}
     </>
   )
 }
