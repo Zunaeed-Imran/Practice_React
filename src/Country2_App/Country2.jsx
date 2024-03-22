@@ -10,10 +10,10 @@ const url = 'https://restcountries.com/v3.1/all';
 const Country2 = () => {
 
 
-  const [country, setCountry] = useState();
-  const [loading, setLoading] = useState();
-  const [filter, setFilter] = useState();
-  const [error, setError] = useState();
+  const [country, setCountry] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [filter, setFilter] = useState(country);
+  const [error, setError] = useState(null);
 
 
   const fetchinThadata = async (url) => {

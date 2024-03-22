@@ -21,6 +21,7 @@ const Search2 = (props) => {
       <input
         type="text"
         placeholder='Search'
+        value={search}
         onChange={handleSearch}
       />
     </>
