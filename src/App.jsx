@@ -1,4 +1,5 @@
 import './App.css';
+import Management_SimpleApp from './User_management_Simple/Management_SimpleApp';
 // import Country4 from './Country4/Country4';
 // import Country2 from './Country2_App/Country2';
 // import Country3 from './Country3_App/Country3';
@@ -17,6 +18,7 @@ function App() {
       {/* <Country2/> */}
       {/* <Diaplay3/> */}
       {/* <Country4/> */}
+      <Management_SimpleApp/>
 
     </>
   );
