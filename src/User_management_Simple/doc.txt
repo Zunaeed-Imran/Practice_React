@@ -1,4 +1,0 @@
-### some of problem i face in this project
-- i have facing problem with `username` if i don't use the same name every page when i prop-drilling it got a lot of problem.
-- also the data i given, i was giving the id name capital latter and small latter.
-- 
