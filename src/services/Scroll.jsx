@@ -1,6 +1,15 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 function Scroll() {
+
+  const [active, notActive] = useState(false);
+  
+  useEffect(() => {
+    const handleScroll = () =>{
+      
+    }
+  })
+
   return (
     <div>
       hello
